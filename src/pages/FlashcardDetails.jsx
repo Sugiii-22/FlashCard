@@ -21,6 +21,8 @@ const FlashcardDetails = () => {
     content: () => pdfRef.current,
   });
 
+
+  
   const termRef = useRef();
 
   const SideBtnData = [
