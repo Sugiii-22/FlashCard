@@ -24,6 +24,9 @@ export const flashCardData = (state = initState, { type, payload }) => {
         flashcards: remainFlashcards,
       };
 
+
+
+      
     default:
       return state;
   }
